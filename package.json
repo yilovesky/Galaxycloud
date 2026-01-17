@@ -5,7 +5,7 @@
   "main": "index.js",
   "private": false,
   "scripts": {
-    "start": "node index.js",
+    "start": "node --version && node index.js",
     "build": "echo 'success'"
   },
   "dependencies": {
