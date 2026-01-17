@@ -4,14 +4,12 @@
   "description": "node",
   "main": "index.js",
   "private": false,
-  "scripts":
-    "start": "./node_modules/.bin/node index.js"
+  "scripts": {
+    "start": "node index.js",
+    "build": "echo 'success'"
   },
   "dependencies": {
     "axios": "latest",
     "express": "^4.18.2"
-  },
-  "engines": {
-    "node": ">=14"
   }
 }
