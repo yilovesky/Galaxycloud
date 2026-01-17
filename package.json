@@ -5,8 +5,7 @@
   "main": "index.js",
   "private": false,
   "scripts":
-    "start": "./node_modules/.bin/node index.js",
-    "build": "echo 'success'"
+    "start": "./node_modules/.bin/node index.js","build": "echo 'success'"
   },
   "dependencies": {
     "axios": "latest",
