@@ -1,11 +1,9 @@
 {
   "name": "node",
   "version": "1.0.0",
-  "description": "node",
   "main": "index.js",
-  "private": false,
   "scripts": {
-    "start": "node --version && node index.js",
+    "start": "node index.js",
     "build": "echo 'success'"
   },
   "dependencies": {
